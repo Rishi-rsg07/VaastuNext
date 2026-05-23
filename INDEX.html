@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaastu Next | Barnali Sarkar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            light: '#F4D068',
+                            DEFAULT: '#C5A059',
+                            dark: '#9A7B3E',
+                        },
+                        charcoal: '#1A1A1A',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #111111;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #F4D068 0%, #C5A059 50%, #9A7B3E 100%);
+        }
+        .gold-text-gradient {
+            background: linear-gradient(135deg, #F4D068 0%, #C5A059 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="text-gray-200 scroll-smooth">
+
+    <nav class="sticky top-0 z-40 bg-charcoal/90 backdrop-blur-md border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-seedling text-2xl gold-text-gradient"></i>
+                <span class="font-bold text-xl tracking-wider text-white">VAASTU NEXT <span class="text-xs block text-gold font-light">@ BARNALI</span></span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide">
+                <a href="#about" class="hover:text-gold transition">ABOUT</a>
+                <a href="#services" class="hover:text-gold transition">SERVICES</a>
+                <a href="#faq" class="hover:text-gold transition">FAQ</a>
+            </div>
+            <a href="#appointment" class="gold-gradient text-charcoal px-5 py-2 rounded font-bold text-xs tracking-wider hover:opacity-90 transition">BOOK NOW</a>
+        </div>
+    </nav>
+
+    <header id="about" class="relative py-24 px-6 max-w-7xl mx-auto grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-7 space-y-6">
+            <span class="text-gold tracking-widest text-xs font-bold block uppercase">Advanced Vedic Vaastu & Feng Shui Specialist</span>
+            <h1 class="text-5xl font-bold tracking-wide text-white">BARNALI SARKAR</h1>
+            <p class="text-gold font-medium text-sm tracking-wider">B.E. Civil Engg, Dip Interior Design | Numerologist</p>
+            <hr class="border-gold/30 w-24">
+            <p class="text-gray-400 leading-relaxed text-sm">
+                Bridging the structural precision of <strong>Civil Engineering</strong> with the aesthetic harmony of <strong>Interior Design</strong>, Barnali Sarkar offers a scientifically backed approach to ancient spatial energies. Transforming environments across Mumbai, Delhi, Chennai, and Kolkata.
+            </p>
+            <div class="pt-4 flex flex-wrap gap-4 text-xs font-semibold">
+                <div class="flex items-center space-x-2 bg-charcoal p-3 rounded border border-gold/10"><i class="fa-solid fa-phone text-gold"></i> <span>+91 9958455447</span></div>
+                <div class="flex items-center space-x-2 bg-charcoal p-3 rounded border border-gold/10"><i class="fa-solid fa-envelope text-gold"></i> <span>vaastunextbarnali@gmail.com</span></div>
+            </div>
+        </div>
+        <div class="md:col-span-5 gold-gradient p-8 rounded-xl shadow-2xl text-charcoal flex flex-col justify-between h-64 relative overflow-hidden group hover:scale-[1.02] transition duration-300">
+            <div class="absolute -right-10 -bottom-10 opacity-10 text-[12rem] pointer-events-none"><i class="fa-solid fa-seedling"></i></div>
+            <div class="flex justify-between items-start">
+                <div>
+                    <h3 class="font-bold text-2xl tracking-wide">BARNALI SARKAR</h3>
+                    <p class="text-xs font-semibold opacity-80 mt-1">Vedic Vaastu, Feng Shui & Numerology</p>
+                </div>
+                <i class="fa-solid fa-seedling text-3xl"></i>
+            </div>
+            <div class="text-xs space-y-1 font-medium">
+                <p><i class="fa-solid fa-graduation-cap mr-1"></i> B.E. Civil Engg, Dip Interior Design</p>
+                <p><i class="fa-solid fa-location-dot mr-1"></i> Mumbai • Delhi • Chennai • Kolkata</p>
+                <p class="font-bold pt-2"><i class="fa-solid fa-phone mr-1"></i> +91 9958455447</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="bg-charcoal py-20 px-6 border-t border-b border-gold/10">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white tracking-wide">OUR SERVICES</h2>
+                <div class="w-12 h-1 gold-gradient mx-auto my-4"></div>
+                <p class="text-gray-400 text-xs">Align your architecture, interior decor, and destiny patterns for holistic prosperity.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div id="appointment" class="bg-[#111111] p-8 rounded-xl border border-gold/20 shadow-xl">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="gold-gradient p-3 rounded text-charcoal"><i class="fa-regular fa-calendar-check text-xl"></i></div>
+                        <h3 class="text-xl font-semibold text-white">Book an Appointment</h3>
+                    </div>
+                    <form class="space-y-4 text-xs" onsubmit="event.preventDefault(); alert('Appointment request simulated!');">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-gray-400 mb-1">Your Name</label>
+                                <input type="text" class="w-full bg-charcoal border border-gray-700 rounded p-3 text-white focus:border-gold outline-none" required>
+                            </div>
+                            <div>
+                                <label class="block text-gray-400 mb-1">Contact Number</label>
+                                <input type="tel" class="w-full bg-charcoal border border-gray-700 rounded p-3 text-white focus:border-gold outline-none" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-400 mb-1">Preferred Consultation Location</label>
+                            <select class="w-full bg-charcoal border border-gray-700 rounded p-3 text-white focus:border-gold outline-none">
+                                <option>Delhi</option>
+                                <option>Mumbai</option>
+                                <option>Chennai</option>
+                                <option>Kolkata</option>
+                                <option>Online Video Consultation</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-gray-400 mb-1">Brief Description of Property/Requirement</label>
+                            <textarea rows="3" class="w-full bg-charcoal border border-gray-700 rounded p-3 text-white focus:border-gold outline-none" placeholder="Residential, Commercial, Layout Blueprint review..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full gold-gradient text-charcoal font-bold py-3 rounded hover:opacity-90 transition tracking-wider">REQUEST CONSULTATION</button>
+                    </form>
+                </div>
+
+                <div class="bg-[#111111] p-8 rounded-xl border border-gray-800 shadow-xl flex flex-col justify-between relative overflow-hidden group">
+                    <div class="absolute top-4 right-4 bg-gold/10 text-gold font-bold text-[10px] tracking-widest px-3 py-1 rounded border border-gold/30">COMING SOON</div>
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <div class="bg-gray-800 p-3 rounded text-gray-400"><i class="fa-solid fa-square-poll-vertical text-xl"></i></div>
+                            <h3 class="text-xl font-semibold text-gray-400">Analyze Your Vaastu</h3>
+                        </div>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            An automated self-assessment diagnostic architecture. Answer targeted structural configuration questions about your entrance, kitchen placement, and master bed placement to receive an instant foundational alignment matrix rating.
+                        </p>
+                    </div>
+                    <button disabled class="w-full bg-gray-800 text-gray-500 cursor-not-allowed font-bold py-3 rounded tracking-wider text-xs">SURVEY ENGINE LOCKED</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20 px-6 max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white tracking-wide">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="w-12 h-1 gold-gradient mx-auto my-4"></div>
+        </div>
+        <div class="space-y-4">
+            <div class="bg-charcoal p-5 rounded-lg border border-gold/10">
+                <h4 class="font-semibold text-white text-sm flex justify-between items-center cursor-pointer">
+                    <span>How does a Civil Engineering background modify traditional Vaastu remedies?</span>
+                    <i class="fa-solid fa-chevron-down text-gold"></i>
+                </h4>
+                <p class="text-gray-400 text-xs mt-3 leading-relaxed">
+                    It avoids unnecessary structural demolition. By assessing load-bearing vectors, structural designs, and interior layouts, elements can be dynamically optimized through spatial alterations, color spectrum usage, and directional realignment.
+                </p>
+            </div>
+            <div class="bg-charcoal p-5 rounded-lg border border-gold/10">
+                <h4 class="font-semibold text-white text-sm flex justify-between items-center cursor-pointer">
+                    <span>Do you offer remote blueprint/layout evaluations?</span>
+                    <i class="fa-solid fa-chevron-down text-gold"></i>
+                </h4>
+                <p class="text-gray-400 text-xs mt-3 leading-relaxed">
+                    Yes, accurate spatial evaluations can be executed remotely across all global locations utilizing certified CAD digital structural blueprints, precise Google Earth coordinate positioning, and magnetic orientations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-charcoal text-center py-8 text-xs text-gray-500 border-t border-gray-800">
+        <p>&copy; 2026 VAASTU NEXT @ BARNALI. Developed for UI/UX Deployment.</p>
+    </footer>
+
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+        <div id="chatbox" class="hidden w-80 sm:w-96 h-[450px] bg-charcoal border border-gold/30 rounded-xl shadow-2xl flex flex-col mb-4 overflow-hidden">
+            <div class="gold-gradient p-4 text-charcoal flex justify-between items-center font-bold">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-robot text-lg"></i>
+                    <div>
+                        <h4 class="text-sm font-bold tracking-tight">Dodo</h4>
+                        <span class="text-[10px] block opacity-75 font-normal">Vaastu Consultation Assistant</span>
+                    </div>
+                </div>
+                <button onclick="toggleChat()" class="hover:opacity-70"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <div id="chat-messages" class="flex-1 p-4 overflow-y-auto space-y-3 text-xs">
+                <div class="bg-gray-800 text-gray-200 p-3 rounded-lg max-w-[85%]">
+                    Hello! I am <strong>Dodo</strong>. I can assist you with booking details, help interpret layout configurations, or take down structural queries directly for Barnali's analysis. How may I help you today?
+                </div>
+            </div>
+            <form onsubmit="handleChatSubmit(event)" class="p-3 border-t border-gray-800 bg-[#111111] flex gap-2">
+                <input id="chat-input" type="text" placeholder="Ask Dodo a question..." class="flex-1 bg-charcoal text-xs text-white border border-gray-700 rounded p-2.5 focus:border-gold outline-none">
+                <button type="submit" class="gold-gradient text-charcoal px-4 rounded font-bold hover:opacity-90 transition"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+
+        <button onclick="toggleChat()" class="gold-gradient text-charcoal w-14 h-14 rounded-full shadow-2xl flex items-center justify-center hover:scale-105 transition duration-200">
+            <i class="fa-solid fa-comments text-xl"></i>
+        </button>
+    </div>
+
+    <script>
+        function toggleChat() {
+            const chatbox = document.getElementById('chatbox');
+            chatbox.classList.toggle('hidden');
+        }
+
+        function handleChatSubmit(e) {
+            e.preventDefault();
+            const input = document.getElementById('chat-input');
+            const messagesContainer = document.getElementById('chat-messages');
+            
+            if (!input.value.trim()) return;
+
+            // Render User Input
+            const userBubble = document.createElement('div');
+            userBubble.className = "bg-gold text-charcoal p-3 rounded-lg max-w-[85%] ml-auto font-medium text-right";
+            userBubble.innerText = input.value;
+            messagesContainer.appendChild(userBubble);
+
+            const userText = input.value.toLowerCase();
+            input.value = '';
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+            // Simple Automated Response Mocking "Dodo"
+            setTimeout(() => {
+                const dodoBubble = document.createElement('div');
+                dodoBubble.className = "bg-gray-800 text-gray-200 p-3 rounded-lg max-w-[85%]";
+                
+                if (userText.includes('book') || userText.includes('appointment')) {
+                    dodoBubble.innerHTML = "I can definitely help fast-track that! Please use the form on the left page panel or type your absolute preference location here so I can register it.";
+                } else if (userText.includes('fee') || userText.includes('cost')) {
+                    dodoBubble.innerHTML = "Consultation metrics depend closely on the square footprint area and architectural intent (Residential vs. Commercial). Please submit a booking request for precise structural quote estimates.";
+                } else {
+                    dodoBubble.innerHTML = "Understood. I have logged this query for Barnali. She will verify your configuration blueprint specifics. Feel free to leave your contact parameters in the main form!";
+                }
+                
+                messagesContainer.appendChild(dodoBubble);
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            }, 800);
+        }
+    </script>
+</body>
+</html>
